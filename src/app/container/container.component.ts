@@ -11,5 +11,13 @@ export class ContainerComponent implements OnInit {
 
   ngOnInit(): void {
   }
+title='my-app';
+imgUrl="https://angular.io/assets/images/logos/angular/logo-nav@2x.png"
+/*imgUrl="assets/n.jpg"*/
 
+onClick($event:any){
+  console.log("ok is clicked", $event)
+}
+
+name:string="";
 }
